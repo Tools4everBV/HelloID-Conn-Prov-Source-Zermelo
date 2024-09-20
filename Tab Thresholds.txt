@@ -1,0 +1,12 @@
+Adition
+	Enabled: (x)On, ( )Off
+	Count: 0
+	Percentage: 20
+Removal
+	Enabled: (x)On, ( )Off
+	Count: 0
+	Percentage: 20
+Blocked Persons
+	Enabled: (x)On, ( )Off
+	Count: 1
+	Percentage: 0

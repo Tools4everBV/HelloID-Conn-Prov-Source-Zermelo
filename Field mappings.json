@@ -1,0 +1,128 @@
+{
+    "personMappings": [
+        {
+            "name": "Aggregation",
+            "mode": "field",
+            "value": "employeeNumber",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "ExternalId",
+            "mode": "field",
+            "value": "ExternalId",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Name.Convention",
+            "mode": "fixed",
+            "value": "B",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Name.FamilyName",
+            "mode": "field",
+            "value": "lastName",
+            "validation": {
+                "required": true
+            }
+        },
+        {
+            "name": "Name.FamilyNamePrefix",
+            "mode": "field",
+            "value": "prefix",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Name.NickName",
+            "mode": "field",
+            "value": "firstName",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "UserName",
+            "mode": "field",
+            "value": "userCode",
+            "validation": {
+                "required": false
+            }
+        }
+    ],
+    "contractMappings": [
+        {
+            "name": "Custom.Sections",
+            "mode": "complex",
+            "value": "sourceContract.Sections",
+            "validation": {
+                "required": false
+            },
+            "convertToString": true
+        },
+        {
+            "name": "Custom.Tasks",
+            "mode": "complex",
+            "value": "sourceContract.Tasks",
+            "validation": {
+                "required": false
+            },
+            "convertToString": true
+        },
+        {
+            "name": "EndDate",
+            "mode": "field",
+            "value": "end",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "ExternalId",
+            "mode": "field",
+            "value": "ExternalId",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "StartDate",
+            "mode": "field",
+            "value": "start",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Team.ExternalId",
+            "mode": "field",
+            "value": "teacherTeam.ExternalId",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Team.Name",
+            "mode": "field",
+            "value": "teacherTeam.Name",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Type.Code",
+            "mode": "field",
+            "value": "defaultFunctionCategory",
+            "validation": {
+                "required": false
+            }
+        }
+    ]
+}

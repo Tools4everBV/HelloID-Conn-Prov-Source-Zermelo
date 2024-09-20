@@ -1,0 +1,3 @@
+Name: "Zermelo - Personeel"
+Icon: "https://raw.githubusercontent.com/Tools4everBV/HelloID-Conn-Prov-Target-Zermelo/master/Icon.png"
+Description: ""

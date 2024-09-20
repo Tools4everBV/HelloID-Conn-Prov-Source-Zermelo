@@ -1,0 +1,78 @@
+[
+  {
+    "key": "BaseUrl",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "BaseUrl",
+      "description": "The URL to the Zermelo API.",
+      "placeholder": "https://{customer}.zportal.nl",
+      "required": true
+    }
+  },
+  {
+    "key": "Token",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "type": "password",
+      "label": "Token",
+      "description": "The token to authenticate to the Zermelo API",
+      "required": true
+    }
+  },
+  {
+    "key": "SchoolCode",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "School code",
+      "description": "",
+      "placeholder": "",
+      "required": true
+    }
+  },
+  {
+    "key": "CorrelationField",
+    "type": "select",
+    "defaultValue": "employeeNumber",
+    "templateOptions": {
+      "label": "Zermelo: Correlation Field",
+      "placeholder": "Please select an option",
+      "options": [
+        {
+          "value": "employeeNumber",
+          "label": "Employee Number"
+        },
+        {
+          "value": "street",
+          "label": "Street"
+        },
+        {
+          "value": "houseNumber",
+          "label": "House Number"
+        }
+      ]
+    }
+  },
+  {
+    "key": "Compact",
+    "type": "checkbox",
+    "defaultValue": true,
+    "templateOptions": {
+      "label": "Toggle Compact Tasks and Sections",
+      "description": "When toggled, Tasks and Section with the same Start and End date are combined into the same contract",
+      "required": false
+    }
+  },
+  {
+    "key": "IsDebug",
+    "type": "checkbox",
+    "defaultValue": true,
+    "templateOptions": {
+      "label": "Toggle debug logging",
+      "description": "When toggled, debug logging will be displayed",
+      "required": false
+    }
+  }
+]

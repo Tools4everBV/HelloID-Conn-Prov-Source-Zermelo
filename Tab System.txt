@@ -1,0 +1,6 @@
+Execute On-Premises: (x)On, ( )Off
+Agent Configuration: 1
+Import scripts
+	Persons: {Persons.ps1.txt}
+	Departments: {Departments.ps1.txt}
+Custom connector configuration: {Custom Connector Configuration.json.txt}
