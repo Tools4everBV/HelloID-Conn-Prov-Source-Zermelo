@@ -1,6 +1,8 @@
 
 # HelloID-Conn-Prov-Source-Zermelo
-
+| :warning: Warning |
+|:---------------------------|
+| Note that this connector is "a work in progress" and therefore not ready for use in your production environment.
 
 | :information_source: Information                                                                                                                                                                                                                                                                                                                                                       |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -64,6 +66,11 @@ The following settings are required to connect to the API.
 ### Remarks
 
 - This is currently a source connector tailored to the requirements of a specific customer. While this can be used in general as a starting template for zermelo, you may need to implement more adjustments then usual to get it working at your location.
+
+- The "CorrelationField" contains the name of the employee field that indentifies the user in Helloid. By default this is the "employeeNumber". This may however not be available (not filled correctly) in your envirionment. If it is available in an other field you have to specify the name of that field here. When using custom field, is assumed that this is in the format "#user_id#".
+You may need to update the code if this is different in your environment.
+
+- The different filter options of the Get calls are currently provided in the body of the request. This seems to work correctly, but it is customary to specify this in the url itself, so this may need some attention.
 
 ## Getting help
 
